@@ -69,7 +69,8 @@ let ex4_input = document.getElementById('ex4_input');
 let ex4_output = document.getElementById('ex4_output');
 
 function ex4_printSort() {
-    getValueFromInputToArray(ex4_input.value);
+    let myInputArray = getValueFromInputToArray(ex4_input.value);
+    
 }
 
 function getValueFromInputToArray(inputText) {

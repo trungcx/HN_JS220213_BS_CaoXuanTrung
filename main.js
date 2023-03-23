@@ -61,8 +61,7 @@ function ex3_printDelete() {
             }
         }
     }
-
-    console.log(myOutput);
+    ex3_output.innerHTML = myOutput;
 }
 
 //Bài 4 : Viết một chương sắp xếp các phần tử là số ở trong mảng theo thứ tự tăng dần

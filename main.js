@@ -57,12 +57,12 @@ function ex3_printDelete() {
             if(myOutput.includes(myInput[j])==true){
 
             } else{
-                
+                myOutput.push(myInput[j]);
             }
         }
     }
 
-    console.log(myInput);
+    console.log(myOutput);
 }
 
 //Bài 4 : Viết một chương sắp xếp các phần tử là số ở trong mảng theo thứ tự tăng dần
